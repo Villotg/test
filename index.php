@@ -1,6 +1,6 @@
 
 <?php
-get_header(); 
+get_header();
 ?>
 
 <section>
@@ -13,7 +13,7 @@ get_header();
     while ( have_posts() ) :
         the_post(); ?>
 <article>
-    <h2><?php the_title(); ?></h2>
+    <a href="<?php the_permalink(); ?><?php the_title(); ?>">
     <div><?php the_content(); ?></div>
     <p><?php the_time();?></p>
     <p><?php the_author_posts_link();?></p>
@@ -21,5 +21,5 @@ get_header();
 <?php endwhile; endif; ?>
 
 <?php
-get_footer(); 
+get_footer();
 ?>
