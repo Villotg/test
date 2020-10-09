@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <title><?php bloginfo('name');?>-<?php bloginfo('description');?></title>
         <meta name="author" content="Guigui">
         <meta name="keywords" content="Guigui, Modèle, HTML">
         <meta name="description" content="Modèle HTML de Guigui">
